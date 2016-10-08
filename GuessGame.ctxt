@@ -1,4 +1,10 @@
 #BlueJ class context
 comment0.params=
 comment0.target=void\ startGame()
-numComments=1
+comment1.params=
+comment1.target=void\ playGame()
+comment2.params=
+comment2.target=void\ judgeGame()
+comment3.params=
+comment3.target=void\ gameResult()
+numComments=4

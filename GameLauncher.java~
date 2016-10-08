@@ -21,7 +21,7 @@ public class GameLauncher
            game.startGame(); 
            game.playGame();
            game.judgeGame();
-           game.gameResult();
+           
            
            System.out.println("Enter end to quit or press enter to continue!");
            endWords = typeInput.nextLine();

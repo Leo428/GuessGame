@@ -2,7 +2,7 @@
 comment0.params=newGuessNum
 comment0.target=void\ setGuessNum(int)
 comment1.params=
-comment1.target=int\ getGuessNumber()
+comment1.target=int\ getGuessNum()
 comment2.params=newPNum
 comment2.target=void\ setPNum(int)
 comment3.params=

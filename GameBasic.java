@@ -11,16 +11,18 @@ public class GameBasic
     private int pNum;
 
     private String strPNum;
-    
     private String chooseNum;
     
+    int[] answer; 
+    int[] absDiffer; 
+    boolean[] correctBool; 
     String[] names;
 
     public void setGuessNum(int newGuessNum)
     {
         guessNum = newGuessNum;
     }
-    public int getGuessNumber()
+    public int getGuessNum()
     {
       return guessNum;
     }
