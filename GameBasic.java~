@@ -11,10 +11,8 @@ public class GameBasic
     private int pNum;
 
     private String strPNum;
-    
+    private String[] names;
     private String chooseNum;
-    
-    String[] names;
 
     public void setGuessNum(int newGuessNum)
     {
@@ -52,6 +50,15 @@ public class GameBasic
       return chooseNum;
     }
 
+    public void setNameArray(String[] newNameArray)
+    {
+      
+      names = newNameArray;
+    }
     
+    public String[] getNameArray()
+    {
+      return names;
+    }
     
 }
