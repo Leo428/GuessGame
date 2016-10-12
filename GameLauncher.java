@@ -1,6 +1,6 @@
 
 /**
- * Write a description of class GameLauncher here.
+ * Launcher for the game. 
  * 
  * @author Zheyuan Hu 
  * @version 10/7/2016 
@@ -26,5 +26,5 @@ public class GameLauncher
            System.out.println("Enter end to quit or press enter to continue!");
            endWords = typeInput.nextLine();
        }while(!endWords.equalsIgnoreCase("end"));
-   }
+   }  // end of main 
 }

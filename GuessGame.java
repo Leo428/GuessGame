@@ -1,5 +1,5 @@
 /**
- * Write a description of class GuessGame here.
+ * Game methods !!!
  *
  * @author Zheyuan Hu
  * @version 10/7/2016
@@ -7,13 +7,16 @@
 
 import java.util.Scanner;
 import java.util.Arrays; 
+
 public class GuessGame
 {
     GameBasic sGame = new GameBasic();   
     Scanner typeInput = new Scanner(System.in);
+    
+    //different methods for the game, it should be easy to understand without comments..........
+    
     public void startGame()
     {       
-             
         System.out.println("Please enter how many players are playing the game");            
         sGame.setPNum(typeInput.nextInt());        
         sGame.names = new String[sGame.getPNum()];  
@@ -84,4 +87,5 @@ public class GuessGame
             }
         }
     }
-}
+    
+} // end of class

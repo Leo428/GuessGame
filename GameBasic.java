@@ -1,6 +1,6 @@
 
 /**
- * Write a description of class GameBasic here.
+ * Set variables and getters and setters for the game 
  *
  * @author (your name)
  * @version (a version number or a date)
@@ -53,7 +53,4 @@ public class GameBasic
     {
       return chooseNum;
     }
-
-    
-    
 }
